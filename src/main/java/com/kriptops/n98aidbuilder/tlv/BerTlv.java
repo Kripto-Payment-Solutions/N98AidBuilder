@@ -12,11 +12,19 @@ public class BerTlv {
     private final BerTag theTag;
     private final byte[] theValue;
     protected final List<BerTlv> theList;
+    
+    public BerTlv(String aTag, List<BerTlv> aList) {
+    	this(new BerTag(aTag), aList);
+    }
 
     public BerTlv(BerTag aTag, List<BerTlv> aList) {
         theTag = aTag;
         theList = aList;
         theValue = null;
+    }
+    
+    public BerTlv(String tag, String value) {
+    	this(new BerTag(tag), HexUtil.parseHex(value));
     }
 
     public BerTlv(BerTag aTag, byte[] aValue) {

@@ -3,14 +3,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
+import com.kriptops.n98aidbuilder.tlv.BerTag;
+import com.kriptops.n98aidbuilder.tlv.BerTlv;
+import com.kriptops.n98aidbuilder.tlv.BerTlvBuilder;
 import com.kriptops.n98aidbuilder.tlv.BerTlvParser;
+import com.kriptops.n98aidbuilder.tlv.BerTlvs;
 import com.kriptops.n98aidbuilder.tlv.HexUtil;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.ResourceBundle;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions.*;
 
 /**
  *
@@ -63,5 +72,46 @@ public class NewEmptyJUnitTest {
                 });
             }
         });
+    }
+    
+    @Test
+    public void hello4() {
+    	
+    	
+    	    	
+    	
+    	String data = HexUtil.toHexString(    			
+    			new BerTlvBuilder(
+    			new BerTlvs(
+    					Arrays.asList(    							
+				    			new BerTlv("DF808000", "00"),
+				    			new BerTlv("9C", "00"),
+				    			new BerTlv("9F06", "A0000000031010"),
+				    			new BerTlv("DF808060", "01"),
+				    			new BerTlv(
+				    					new BerTag("DF808002"),
+				    					new BerTlvBuilder(new BerTlvs(Arrays.asList(
+				    							new BerTlv("9F01", "123456789012"),
+				    							new BerTlv("9F09", "0002"),
+				    							new BerTlv("9F16", "313233343536373839303132333435"),
+				    							new BerTlv("9F15", "1234"),
+				    							new BerTlv("9F4E", "54657374204D65726368616E74"),
+				    							new BerTlv("9F1C", "46726F6E74313233"),
+				    							new BerTlv("9F1A", "0604"),
+				    							new BerTlv("9F35", "22"),
+				    							new BerTlv("9F33", "E0F8E8"),
+				    							new BerTlv("9F40", "F000F0F001"),
+				    							new BerTlv("DF808061", "000000100000"),
+				    							new BerTlv("DF808020", "0000000000"),
+				    							new BerTlv("DF808021", "0000000000"),
+				    							new BerTlv("DF808022", "0000000000"),
+				    							new BerTlv("9F1B", "00000000")
+				    							))
+				    					).buildArray()
+				    			)
+    					)
+    			)).buildArray());
+    	
+    	System.out.println(data);
     }
 }
