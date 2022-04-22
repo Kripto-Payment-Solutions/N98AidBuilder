@@ -2,7 +2,9 @@ package com.kriptops.n98aidbuilder.tlv;
 
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public class BerTlvBuilder {
 
@@ -22,11 +24,19 @@ public class BerTlvBuilder {
         this(aTemplate, new byte[DEFAULT_SIZE], 0, DEFAULT_SIZE);
     }
 
-    public BerTlvBuilder(BerTlvs tlvs) {
+    public BerTlvBuilder(List<BerTlv> tlvs) {
         this((BerTag) null);
-        for (BerTlv tlv : tlvs.getList()) {
+        for (BerTlv tlv : tlvs) {
             addBerTlv(tlv);
         }
+    }
+
+    public BerTlvBuilder(BerTlvs tlvs) {
+        this(tlvs.getList());
+    }
+
+    public BerTlvBuilder(BerTlv... tlvs) {
+        this(Arrays.asList(tlvs));
     }
 
     public BerTlvBuilder(BerTag aTemplate, byte[] aBuffer, int aOffset, int aLength) {
@@ -158,7 +168,7 @@ public class BerTlvBuilder {
         return this;
     }
 
-    public BerTlvBuilder addBerTlv(BerTlv aTlv) {
+    public final BerTlvBuilder addBerTlv(BerTlv aTlv) {
         if (aTlv.isConstructed()) {
             return add(from(aTlv));
         } else {

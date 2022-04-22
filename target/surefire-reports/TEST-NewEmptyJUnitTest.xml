@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="NewEmptyJUnitTest" time="0.066" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="NewEmptyJUnitTest" time="0.074" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/carlos/NetBeansProjects/N98AidBuilder/target/test-classes:/home/carlos/NetBeansProjects/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/test-classes:/home/carlos/Documents/GitHub/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,10 +16,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/carlos/NetBeansProjects/N98AidBuilder/target/surefire/surefirebooter6587183670420242152.jar /home/carlos/NetBeansProjects/N98AidBuilder/target/surefire 2022-04-21T12-39-10_593-jvmRun1 surefire1236836900882316822tmp surefire_015979362511574983354tmp"/>
+    <property name="sun.java.command" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter8077014056195824704.jar /home/carlos/Documents/GitHub/N98AidBuilder/target/surefire 2022-04-22T16-38-50_960-jvmRun1 surefire3311825306738709147tmp surefire_011574943495125901489tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="NewEmptyJUnitTest"/>
-    <property name="surefire.test.class.path" value="/home/carlos/NetBeansProjects/N98AidBuilder/target/test-classes:/home/carlos/NetBeansProjects/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/test-classes:/home/carlos/Documents/GitHub/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/carlos"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2022-02-08"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/carlos/NetBeansProjects/N98AidBuilder"/>
+    <property name="basedir" value="/home/carlos/Documents/GitHub/N98AidBuilder"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/carlos/NetBeansProjects/N98AidBuilder/target/surefire/surefirebooter6587183670420242152.jar"/>
+    <property name="surefire.real.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter8077014056195824704.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-Ubuntu-0ubuntu1.21.10"/>
     <property name="user.name" value="carlos"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.14.1"/>
-    <property name="user.dir" value="/home/carlos/NetBeansProjects/N98AidBuilder"/>
+    <property name="user.dir" value="/home/carlos/Documents/GitHub/N98AidBuilder"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -59,17 +59,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="hello" classname="NewEmptyJUnitTest" time="0.045">
-    <system-out><![CDATA[com.kriptops.n98aidbuilder.tlv.BerTlvs@65b3f4a4
+  <testcase name="aidsVisa" classname="NewEmptyJUnitTest" time="0.029">
+    <system-out><![CDATA[Test AIDS Visa
+00C1DF80800001009C01009F0607A0000000031010DF8080600101DF80800281A29F01061234567890129F090200029F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0206049F3501219F33036048C89F4005F000F02001DF80806106000000100000DF808020050010000000DF80802105DC4000A800DF80802205DC4004F800DF808026039F0206DF808027039F37049F1B0400000000DF80802C06000000015000
+00C1DF80800001009C01009F0607A0000000032010DF8080600101DF80800281A29F01061234567890129F090200029F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0206049F3501219F33036048C89F4005F000F02001DF80806106000000100000DF808020050010000000DF80802105DC4000A800DF80802205DC4004F800DF808026039F0206DF808027039F37049F1B0400000000DF80802C06000000015000
+00C1DF80800001009C01009F0607A0000000033010DF8080600101DF80800281A29F01061234567890129F090200029F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0206049F3501219F33036048C89F4005F000F02001DF80806106000000100000DF808020050010000000DF80802105DC4000A800DF80802205DC4004F800DF808026039F0206DF808027039F37049F1B0400000000DF80802C06000000015000
+]]></system-out>
+  </testcase>
+  <testcase name="hello" classname="NewEmptyJUnitTest" time="0.025">
+    <system-out><![CDATA[com.kriptops.n98aidbuilder.tlv.BerTlvs@770d3326
 DF808000 (TAG_PLATFORM_KERNEL_ID) 00
 9C (Transaction Type) 00
 9F06 (Application Identifier) A0000000031010
 DF808060 (TAG_PLATFORM_AID_ASI) 01
 DF808002 (TAG_PLATFORM_APP_PARAM_DATA) 9F01061234567890129F090200029F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0206049F3501229F3303E0F8E89F4005F000F0F001DF80806106000000100000DF808020050000000000DF808021050000000000DF8080220500000000009F1B0400000000
-	9F01 () 123456789012
-	9F09 () 0002
-	9F16 () 313233343536373839303132333435
-	9F15 () 1234
+	9F01 (Acquirer Identifier) 123456789012
+	9F09 (Application Version Number) 0002
+	9F16 (Merchant Identifier) 313233343536373839303132333435
+	9F15 (Merchant Category Code) 1234
 	9F4E () 54657374204D65726368616E74
 	9F1C () 46726F6E74313233
 	9F1A () 0604

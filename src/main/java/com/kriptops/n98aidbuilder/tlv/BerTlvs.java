@@ -1,11 +1,16 @@
 package com.kriptops.n98aidbuilder.tlv;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class BerTlvs {
 
     private final List<BerTlv> tlvs;
+
+    public BerTlvs(BerTlv... aTlvs) {
+        this(Arrays.asList(aTlvs));
+    }
 
     public BerTlvs(List<BerTlv> aTlvs) {
         tlvs = aTlvs;
