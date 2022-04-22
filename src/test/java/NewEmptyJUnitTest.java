@@ -93,7 +93,7 @@ public class NewEmptyJUnitTest {
                     new BerTlv("9F35", "21"),
                     new BerTlv("9F33", "6048C8"),
                     new BerTlv("9F40", "F000F02001"),
-                    new BerTlv("DF808061", "000000100000"),
+                    new BerTlv("DF808061", "000000048000"),
                     new BerTlv("DF808020", "0010000000"),
                     new BerTlv("DF808021", "DC4000A800"),
                     new BerTlv("DF808022", "DC4004F800"),
