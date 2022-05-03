@@ -7,5 +7,5 @@ com/kriptops/n98aidbuilder/tlv/BerTlvBuilder.class
 com/kriptops/n98aidbuilder/tlv/BerTlv.class
 com/kriptops/n98aidbuilder/tlv/IBerTlvLogger.class
 com/kriptops/n98aidbuilder/N98AidBuilder.class
-com/kriptops/n98aidbuilder/tlv/HexUtil.class
 com/kriptops/n98aidbuilder/tlv/BerTlvParser$1.class
+com/kriptops/n98aidbuilder/tlv/HexUtil.class
