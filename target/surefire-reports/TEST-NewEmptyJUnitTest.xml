@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="NewEmptyJUnitTest" time="0.024" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="NewEmptyJUnitTest" time="0.077" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/test-classes:/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/classes:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/egcarlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/egcarlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/egcarlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/test-classes:/home/carlos/Documents/GitHub/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="user.country" value="419"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter17795081385245702338.jar /Users/egcarlos/Documents/GitHub/N98AidBuilder/target/surefire 2022-05-03T13-09-47_961-jvmRun1 surefire11645821942372509335tmp surefire_012923071253041515321tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter14801975769548496292.jar /home/carlos/Documents/GitHub/N98AidBuilder/target/surefire 2022-05-03T19-27-45_464-jvmRun1 surefire13605569666914727886tmp surefire_010007334442811985608tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="NewEmptyJUnitTest"/>
-    <property name="surefire.test.class.path" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/test-classes:/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/classes:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/egcarlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/egcarlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/egcarlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/egcarlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="test" value="NewEmptyJUnitTest#amex_diners"/>
+    <property name="surefire.test.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/test-classes:/home/carlos/Documents/GitHub/N98AidBuilder/target/classes:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/carlos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/carlos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/carlos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/carlos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/egcarlos"/>
-    <property name="user.language" value="es"/>
+    <property name="user.home" value="/home/carlos"/>
+    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-01-18"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder"/>
+    <property name="basedir" value="/home/carlos/Documents/GitHub/N98AidBuilder"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter17795081385245702338.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/carlos/Documents/GitHub/N98AidBuilder/target/surefire/surefirebooter14801975769548496292.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="17.0.2+8"/>
-    <property name="user.name" value="egcarlos"/>
+    <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.21.10.1"/>
+    <property name="user.name" value="carlos"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="12.3.1"/>
+    <property name="os.version" value="5.13.0-40-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
-    <property name="maven.ext.class.path" value="/Applications/NetBeans/Apache NetBeans 13.app/Contents/Resources/NetBeans/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
-    <property name="localRepository" value="/Users/egcarlos/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/h3/4t2kczxn4kb7md68v54zcgr40000gn/T/"/>
-    <property name="java.version" value="17.0.2"/>
-    <property name="user.dir" value="/Users/egcarlos/Documents/GitHub/N98AidBuilder"/>
-    <property name="os.arch" value="aarch64"/>
+    <property name="maven.ext.class.path" value="/home/carlos/netbeans-13/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/carlos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/home/carlos/Documents/GitHub/N98AidBuilder"/>
+    <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/egcarlos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.2+8"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.21.10.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="DINERSCTLS" classname="NewEmptyJUnitTest" time="0.006"/>
-  <testcase name="AMEXCTLS" classname="NewEmptyJUnitTest" time="0.01">
-    <system-out><![CDATA[00C3DF80800001049C01009F0605A000000025DF8080600101DF80800281A69F01061234567890129F090200019F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0200009F1E083832313030303031DF808061010E9F3501219F3303E0F8C89F1B0400000000DF808020050000000000DF808021050000000000DF808022050000000000DF80802A06000099999900DF80802B06000000000000DF80802C06000000015000
-com.kriptops.n98aidbuilder.tlv.BerTlvs@44a7bfbc
-DF808000 (TAG_PLATFORM_KERNEL_ID) 04
+  <testcase name="amex_diners" classname="NewEmptyJUnitTest" time="0.058">
+    <system-out><![CDATA[AID DINERS CONTACTLESS: 
+009ADF80800001069C01009F0607A0000001523010DF8080600101DF8080027C9F090200019F160F3030303030303030303030303030309F150253119F4E0E43756C716920437573746F6D65729F1C085465726D696E616C9F1A0206049F660404C00000DF80802801009F1B0400000000DF80802A06000099999900DF80802B06000000000000DF80802C060000000150009F3501219F3303E0F8C8
+
+Descripcion:
+DF808000 (TAG_PLATFORM_TAG_PLATFORM_KERNEL_ID) 06
 9C (Transaction Type) 00
-9F06 (Application Identifier) A000000025
+9F06 (Application Identifier) A0000001523010
 DF808060 (TAG_PLATFORM_AID_ASI) 01
-DF808002 (TAG_PLATFORM_APP_PARAM_DATA) 9F01061234567890129F090200019F160F3132333435363738393031323334359F150212349F4E0D54657374204D65726368616E749F1C0846726F6E743132339F1A0200009F1E083832313030303031DF808061010E9F3501219F3303E0F8C89F1B0400000000DF808020050000000000DF808021050000000000DF808022050000000000DF80802A06000099999900DF80802B06000000000000DF80802C06000000015000
-	9F01 (Acquirer Identifier) 123456789012
+DF808002 (TAG_PLATFORM_TAG_PLATFORM_APP_PARAM_DATA) 9F090200019F160F3030303030303030303030303030309F150253119F4E0E43756C716920437573746F6D65729F1C085465726D696E616C9F1A0206049F660404C00000DF80802801009F1B0400000000DF80802A06000099999900DF80802B06000000000000DF80802C060000000150009F3501219F3303E0F8C8
 	9F09 (Application Version Number) 0001
-	9F16 (Merchant Identifier) 313233343536373839303132333435
-	9F15 (Merchant Category Code) 1234
-	9F4E () 54657374204D65726368616E74
-	9F1C () 46726F6E74313233
-	9F1A () 0000
-	9F1E () 3832313030303031
-	DF808061 () 0E
-	9F35 () 21
-	9F33 () E0F8C8
+	9F16 (Merchant Identifier) 303030303030303030303030303030
+	9F15 (Merchant Category Code) 5311
+	9F4E (Merchant Name and Location) 43756C716920437573746F6D6572
+	9F1C (Terminal Identification) 5465726D696E616C
+	9F1A (Terminal Country Code) 0604
+	9F66 () 04C00000
+	DF808028 () 00
 	9F1B (Terminal Floor Limit) 00000000
-	DF808020 (TAC_DENIAL) 0000000000
-	DF808021 (TAC_DEFAULT) 0000000000
-	DF808022 (TAC_ONLINE) 0000000000
 	DF80802A (TAG_PLATFORM_READER_CONTACTLESS_TRANS_LIMIT) 000099999900
 	DF80802B (TAG_PLATFORM_READER_CONTACTLESS_FLOOR_LIMIT) 000000000000
 	DF80802C (TAG_PLATFORM_READER_CVM_REQUIRE_LIMIT) 000000015000
+	9F35 (Terminal Type) 21
+	9F33 (Terminal Capabilities) E0F8C8
+
+
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -18,14 +18,14 @@ public class N98AidBuilder {
     /**
      * Construye AID para contactless
      * 
-     * @param kty
-     * @param tty
-     * @param aid
-     * @param asi
-     * @param config
-     * @return 
+     * @param kty Tipo de kernel EMV CTLS que se asocia a la configuraicon 02: PayPass/Mastercard, 03:PayWave/Visa, 04: AMEX, 06: Discover/Diners Club
+     * @param tty Tipo de operacion EMV que se ejecuta 00:GOODS/SERVICES
+     * @param aid Identificador de aplicacion, Visa: A000000003, MasterCard: A000000004...., AMEX: A000000025...., DINERS: A000000152....
+     * @param asi Indica si hay ajuste exacto o aproximado. 00: Exacto, 01: Aproximado
+     * @param config Configuracion del aid
+     * @return trama con el aid configurado para el n98
      */
-    public String buildAID(
+    public String buildNFCAID(
             String kty,
             String tty,
             String aid,
@@ -53,14 +53,14 @@ public class N98AidBuilder {
     /**
      * Construye AID para contactless
      * 
-     * @param kty
-     * @param tty
-     * @param aid
-     * @param asi
-     * @param config
-     * @return 
+     * @param kty Tipo de kernel EMV CTLS que se asocia a la configuraicon 02: PayPass/Mastercard, 03:PayWave/Visa, 04: AMEX, 06: Discover/Diners Club
+     * @param tty Tipo de operacion EMV que se ejecuta 00:GOODS/SERVICES
+     * @param aid Identificador de aplicacion, Visa: A000000003, MasterCard: A000000004...., AMEX: A000000025...., DINERS: A000000152....
+     * @param asi Indica si hay ajuste exacto o aproximado. 00: Exacto, 01: Aproximado
+     * @param config Configuracion del aid en hexa debe ser un TLV valido
+     * @return trama con el aid configurado para el n98
      */
-    public String buildAID(
+    public String buildNFCAID(
             String kty,
             String tty,
             String aid,
@@ -93,7 +93,7 @@ public class N98AidBuilder {
      * @param config la configuracion del AID que se extrae del tool o una config manual
      * @return 
      */
-    public String buildAID(
+    public String buildICCAID(
             String aid,
             String asi,
             BerTlv... config
@@ -123,7 +123,7 @@ public class N98AidBuilder {
      * @param config la configuracion del AID que se extrae del tool o una config manual
      * @return 
      */
-    public String buildAID(
+    public String buildICCAID(
             String aid,
             String asi,
             String config
